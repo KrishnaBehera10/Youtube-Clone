@@ -1,7 +1,7 @@
 import "./Sidebar.css";
-import home from "../../Assets/home.png";
-import game_icon from "../../Assets/game_icon.png";
-import automobiles from "../../Assets/automobiles.png";
+import home from "../../assets/home.png";
+import game_icon from "../../assets/game_icon.png";
+import automobiles from "../../assets/automobiles.png";
 import sport from "../../assets/sports.png";
 import entertainment from "../../assets/entertainment.png";
 import tech from "../../assets/tech.png";
