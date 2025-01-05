@@ -1,0 +1,200 @@
+.play-video {
+  flex-basis: 69%;
+}
+.play-video iframe {
+  width: 100%;
+  height: 40vw;
+  border-radius: 14px;
+}
+.play-video h3 {
+  margin-top: 8px;
+}
+.play-video-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+  flex-wrap: wrap;
+  width: 92%;
+  position: relative;
+}
+.play-video-info img {
+  width: 40px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+.play-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.play-left .channel-name h4 {
+  font-size: 14px;
+  font-weight: 600;
+  width: max-content;
+}
+.play-left .channel-name p {
+  font-size: 10px;
+  font-weight: 500;
+  color: #777;
+  width: max-content;
+}
+.subcribed-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: #f0f0f0;
+  padding: 7px 5%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.subcribed-btn .bell {
+  font-size: 1.1rem;
+}
+.subcribed-btn p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.play-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.like-dislike {
+  background: #f0f0f0;
+  padding: 7px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+}
+.like-dislike .like,
+.like-dislike .dislike {
+  font-size: 1rem;
+  cursor: pointer;
+}
+.like-dislike p {
+  border-right: 1px solid gray;
+  padding-right: 10px;
+  font-size: 14px;
+}
+.play-right .share-btn {
+  font-size: 1rem;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 5%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.share-btn p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.play-right .dot p {
+  background: #f0f0f0;
+  text-align: center;
+  font-weight: 600;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.video-discription {
+  margin-top: 8px;
+  height: max-content;
+  width: 100%;
+  background: #f0f0f0;
+  padding: 10px 1%;
+  border-radius: 14px;
+}
+.video-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+.video-info p,
+.video-info span {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.video-discription h4 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.video-discription p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.video-discription button {
+  /* background: none; */
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.comment {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.comment p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.comment img[alt="user"] {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.comment h3 {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.comment h3 span {
+  font-size: 12px;
+  color: #5a5a5a;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.comment-action {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  font-size: 14px;
+  gap: 5px;
+}
+.comment-action img {
+  width: 20px;
+  margin: 5px;
+}
+.comment-action span {
+  color: #5a5a5a;
+}
+
+@media (max-width: 900px) {
+  .play-video {
+    flex-basis: 100%;
+  }
+  .play-video iframe {
+    width: 100%;
+    height: 50vw;
+  }
+  .subcribed-btn .bell {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .play-left .channel-name h4 {
+    font-size: 10px;
+  }
+  .subcribed-btn p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}

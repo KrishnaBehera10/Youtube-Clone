@@ -1,0 +1,134 @@
+nav {
+  padding: 10px 2%;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.menu-icon {
+  margin-right: 25px;
+  font-size: 1.8rem;
+  display: flex;
+  cursor: pointer;
+}
+.nav-left .logo {
+  width: 100px;
+  cursor: pointer;
+}
+.nav-middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+  gap: 15px;
+}
+.nav-middle .search-box {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding-left: 1%;
+  overflow: hidden;
+  flex: 1;
+}
+.search-box .search {
+  padding: 10px;
+  width: 80%;
+  font-size: 0.9rem;
+  border: none;
+  outline: none;
+  flex: 1;
+}
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  background-color: rgb(241, 238, 238);
+  cursor: pointer;
+}
+.mic {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgb(241, 238, 238);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.nav-right {
+  gap: 1rem;
+}
+.nav-right .create {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  padding: 6px 8%;
+  border-radius: 20px;
+  gap: 4px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.notification {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.nav-right .profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 25px;
+  cursor: pointer;
+  object-fit: cover;
+  object-position: top;
+}
+
+@media (max-width: 900px) {
+  .menu-icon {
+    display: none;
+  }
+  .nav-left .logo {
+    width: 90px;
+  }
+  .search-box .search {
+    padding: 8px;
+  }
+  .nav-right .create,
+  .nav-right .notification {
+    display: none;
+  }
+  .nav-middle .mic {
+    display: none;
+  }
+  .nav-right .profile img {
+    width: 28px;
+    height: 28px;
+  }
+}
+@media (max-width: 500px) {
+  .menu-icon {
+    display: none;
+  }
+  .nav-left .logo {
+    width: 80px;
+  }
+  .search-box .search {
+    padding: 6px;
+  }
+  .nav-right .create,
+  .nav-right .notification {
+    display: none;
+  }
+  .nav-middle .mic {
+    display: none;
+  }
+  .nav-right .profile img {
+    width: 25px;
+    height: 25px;
+  }
+}
