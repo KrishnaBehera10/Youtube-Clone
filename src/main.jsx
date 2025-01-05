@@ -4,7 +4,7 @@ import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 import AuthContext from "./UseContext/AuthContext";
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/youtube-clone">
     <AuthContext>
       <App />
     </AuthContext>
